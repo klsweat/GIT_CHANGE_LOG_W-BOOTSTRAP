@@ -59,4 +59,4 @@
 
 ---
 
-![Image of Yaktocat](https://klsweat.github.com/GIT_CHANGE_LOG_W-BOOTSTRAP/example.png
+![Image of Yaktocat](https://klsweat.github.com/GIT_CHANGE_LOG_W-BOOTSTRAP/example.png)
