@@ -59,5 +59,7 @@
 
 ---
 
+<img src="https://github.com/favicon.ico" width="48">
+
 ![smiley](https://github.com/klsweat/GIT_CHANGE_LOG_W-BOOTSTRAP/blob/master/example.jpg)
 
