@@ -11,7 +11,7 @@
 2. jQuery
 3. javascript
 4. json
-5. git
+5. git  --pretty format
 6. bootstrap
 
 ----
