@@ -60,4 +60,7 @@
 ---
 ![alt text][logo]
 
-[logo]: https://github.com/klsweat/GIT_CHANGE_LOG_W-BOOTSTRAP/blob/master/example.jpg | width=100"Logo Title Text 2"
+[logo]: https://github.com/klsweat/GIT_CHANGE_LOG_W-BOOTSTRAP/blob/master/example.jpg"Logo Title Text 2"
+
+Here is an inline ![smiley](https://github.com/klsweat/GIT_CHANGE_LOG_W-BOOTSTRAP/blob/master/example.jpg){:height="36px" width="36px"}.
+
