@@ -59,4 +59,4 @@
 
 ---
 
-![img](example.png)
+![alt text](https://github.com/klsweat/markdown-here/GIT_CHANGE_LOG_W-BOOTSTRAP/example.png"Logo Title Text 1")
