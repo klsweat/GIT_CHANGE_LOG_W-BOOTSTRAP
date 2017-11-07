@@ -1,0 +1,91 @@
+{
+"logs":
+[{
+  "commit": "79f3aba",
+  "author": "author_email@example.com",
+  "date": "1508874860",
+ "version": "HEAD -> master, tag: v1.6, origin/master", 
+  "message": "small-changes-made",
+  "files": [ "form_apps/PR/process.php",
+"form_apps/src/php/epp_lookup.php",
+"index.php"
+  ]
+},
+{
+  "commit": "c399d42",
+  "author": "author_email@example.com",
+  "date": "1508872062",
+ "version": "", 
+  "message": "changes-made-to-web-apps",
+  "files": [ "change.html",
+"web_apps/accounting/cost_accounting/Default.php",
+"web_apps/accounting/cost_accounting/adjust_out_scrap_parts/adj_acct.php",
+"web_apps/accounting/cost_accounting/adjust_out_scrap_parts/index.php",
+"web_apps/accounting/cost_accounting/adjust_out_scrap_parts/process.php",
+"web_apps/accounting/cost_accounting/adjust_out_scrap_parts/quantityvalidate.php",
+"web_apps/accounting/cost_accounting/assets/ajax/adj_acct.php"
+  ]
+},
+{
+  "commit": "17aaeb3",
+  "author": "author_email@example.com",
+  "date": "1508785753",
+ "version": "", 
+  "message": "changes-made-to-everything",
+  "files": [ "employee_purchase/index.php",
+"form_apps/employee_purchase/index.php",
+"form_apps/index.php",
+"form_apps/new_user/index.php",
+"form_apps/quality/index.php",
+"form_apps/rtv/index.php",
+"form_apps/rtv/process.php",
+"form_apps/transfer_it_equip_inventory_record/index.php",
+"web_apps/HR/Schedule.php",
+"web_apps/HR/Schedule_Good.php",
+"web_apps/accounting/cost_accounting/Default.php",
+"web_apps/accounting/cost_accounting/adjust_out_scrap_parts/index.php",
+"web_apps/accounting/cost_accounting/adjust_out_scrap_parts/process.php",
+"web_apps/accounting/cost_accounting/direct.php",
+"web_apps/config.ini",
+"web_apps/config.php",
+"web_apps/configmssql.ini",
+"web_apps/configmssql.php",
+"web_apps/consumer_services/SPtoCustMaintShipAdd.php",
+"web_apps/consumer_services/SPtoCustMaintShipAdd_JJ.php",
+"web_apps/db_fns.php",
+"web_apps/index.php",
+"web_apps/infor/add_remove_kiosks/index.php"
+  ]
+},
+{
+  "commit": "b9f1e59",
+  "author": "author_email@example.com",
+  "date": "1508531077",
+ "version": "v1.4", 
+  "message": "changes-made-to-inv_apps-warehouse-removal",
+  "files": [ "web_apps/inv_trans/inv_transfer_mrb/trace/inv_transfer_to_mrb_trace_process_form.php",
+"web_apps/inv_trans/inv_transfer_mrb/wo_trace/inv_transfer_mrb_wo_trace.php",
+"web_apps/inv_trans/inv_transfer_mrb/wo_trace/process.php"
+  ]
+},
+{
+  "commit": "c612d12",
+  "author": "author_email@example.com",
+  "date": "1508530870",
+ "version": "v1.5", 
+  "message": "changes-made-to-close-ncm",
+  "files": [ "web_apps/db_fns.php",
+"web_apps/inv_trans/inv_transfer_mrb/assets/ajax/inwarehouse.php",
+"web_apps/inv_trans/inv_transfer_mrb/assets/js/js.js",
+"web_apps/inv_trans/inv_transfer_mrb/trace/inv_transfer_mrb_trace.php",
+"web_apps/inv_trans/inv_transfer_mrb/wo_trace/inv_transfer_mrb_wo_trace.php",
+"web_apps/inv_trans/issue_return/ajax/quantityvalidate.php",
+"web_apps/inv_trans/issue_return/assets/js/js.js",
+"web_apps/inv_trans/issue_return/issue_return_to_wo/index.php",
+"web_apps/inv_trans/issue_return/issue_return_to_wo/process.php",
+"web_apps/inv_trans/wo_fallout/assets/js/js.js",
+"web_apps/inv_trans/wo_fallout/fallout/index.php",
+"web_apps/inv_trans/wo_fallout/fallout/process.php",
+"web_apps/logging/close_multiple_ncm_errors.txt"
+  ]
+}]}
