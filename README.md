@@ -57,3 +57,8 @@
 
     }     
 
+---
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://github.com/klwseat/GIT_CHANGE_LOG_W-BOOTSTRAP/example.PNG "Logo Title Text 2"
