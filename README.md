@@ -20,7 +20,7 @@
 **In your terminal**
 
 * git add * or git add -A
-* git commit -m " <APPLICATION TYPE ; <ISSUE ID>; <MESSAGE>"  
+* git commit -m " APPLICATION TYPE ; ISSUE ID; MESSAGE";  
 * git push
 
 **If you want to add a verison tag or number**
