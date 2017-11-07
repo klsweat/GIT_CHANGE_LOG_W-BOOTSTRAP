@@ -59,5 +59,5 @@
 
 ---
 
-![smiley](https://github.com/klsweat/GIT_CHANGE_LOG_W-BOOTSTRAP/blob/master/example.jpg){:height="36px" width="36px"}.
+![smiley](https://github.com/klsweat/GIT_CHANGE_LOG_W-BOOTSTRAP/blob/master/example.jpg)
 
