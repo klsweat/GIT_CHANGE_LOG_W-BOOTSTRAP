@@ -50,8 +50,7 @@
     git log --pretty=format:'{
         %n  "commit": "%h",%n  "author": "%ae",
         %n  "date": "%ct",%n "version": "%D", %n  
-        "message": "%f",%n  "files": [ COMMIT_HASH_%H  ]%n,'|\
-        }
+        "message": "%s",%n  "files": [ COMMIT_HASH_%H  ]%n},'|\
         perl -pe 'BEGIN{print "{\n\"logs\":\n["}; END{print "]}\n"}'
         | \perl -pe 's/},]/}]/;s/COMMIT_HASH_(\w+)/`echo -n  "";getcommit $1`/e' > changeLog/changeLog.json
 
