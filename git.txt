@@ -1,0 +1,12 @@
+function getcommit { \
+    git show --pretty="format:"  --name-only $1 | \
+    perl -pe's/^\n//g;' | \
+    sed 's/\(.*\)/"\1"/g' | \
+    perl -0pe 's/\n(?!\Z)/,\n/g'; \
+}
+
+export -f getcommit
+
+git log --all --pretty=format:'{%n  "commit": "%h",%n  "author": "%ae",%n  "date": "%ct",%n "version": "%D", %n  "message": "%s",%n  "files": [ COMMIT_HASH_%H  ]%n},' | \
+perl -pe 'BEGIN{print "{\n\"logs\":\n["}; END{print "]}\n"}' | \
+perl -pe 's/},]/}]/;s/COMMIT_HASH_(\w+)/`echo -n "";getcommit $1`/e' > changeLog/changeLog.json
